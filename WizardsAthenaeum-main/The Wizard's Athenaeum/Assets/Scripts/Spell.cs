@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Spell : MonoBehaviour {
-
-    //public enum SpellType {damage, AOE, buff};
+public class Spell : MonoBehaviour {
+    
     public int damage;
     public int powerCost;
-    
-    public float successChance;
+    public string spellname;
+    public double successChance;
 
-    public virtual void Cast() {
+    public void Start() {
 
-        //Unique to each spell
+        ;
 
     }
 
