@@ -33,15 +33,15 @@ public class CutScene : MonoBehaviour {
 
         StartCoroutine(ThirdScene(20));
 
-        StartCoroutine(EndScene(30));
+        StartCoroutine(EndScene(25));
         
     }
 
-    void Update() {
+/*     void Update() {
 
         if (scene == 1) {
 
-            playerTransform.localPosition = Vector3.SmoothDamp(playerTransform.localPosition, mid, ref velocity, smoothTime);
+            playerTransform.Translate(Vector3.forward * speed * Time.deltaTime);
 
         } else if (scene == 2) {
 
@@ -53,7 +53,7 @@ public class CutScene : MonoBehaviour {
 
         }
 
-    }
+    } */
 
     IEnumerator FirstScene(float time) {
 

@@ -47,6 +47,7 @@ MonoBehaviour:
   boardScript: {fileID: 2248281510560526556}
   levelStartDelay: 2
   playerHealth: 100
+  pauseMenu: {fileID: 0}
 --- !u!114 &2248281510560526556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,10 +67,10 @@ MonoBehaviour:
     maximum: 9
   scrollCount:
     minimum: 1
-    maximum: 3
+    maximum: 2
   foodCount:
     minimum: 1
-    maximum: 3
+    maximum: 2
   exit: {fileID: 1909514130690048641, guid: ec793169b1ff24fc18e2b90c87dc3f76, type: 3}
   floorTiles:
   - {fileID: 4830291702367826503, guid: f1e30e19f8d1c474bae8935c9b5990dc, type: 3}

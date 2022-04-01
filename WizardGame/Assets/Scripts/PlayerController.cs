@@ -17,6 +17,12 @@ public class PlayerController : MonoBehaviour {
 
     public Animator anim;
 
+    public int physicalDamage = 5;
+
+    public GameManager gameManager;
+
+    public GameObject battleScene;
+
     void Start() {
 
         movePoint.parent = null;
@@ -86,8 +92,14 @@ public class PlayerController : MonoBehaviour {
         
         } else if (other.tag == "Enemy") {
 
-            //start combat
-            LoseHealth(20);
+            //Time.timeScale = 0;
+            print("combat start");
+            battleScene.SetActive(true);
+
+            Enemy hitEnemy = other.gameObject.GetComponent<Enemy>();
+
+            BattlePhase currentBattle = new BattlePhase();
+            currentBattle.SetupBattle(this, hitEnemy);
             print(health);
 
         }
@@ -96,7 +108,7 @@ public class PlayerController : MonoBehaviour {
 
     private void Restart() {
 
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
 
     }
 
@@ -119,13 +131,17 @@ public class PlayerController : MonoBehaviour {
 
     }
 
-    private void CheckIfGameOver() {
+    public bool CheckIfGameOver() {
 
         if (health <= 0) {
 
             GameManager.instance.GameOver();
 
+            return true;
+
         }
+
+        return false;
 
     }
 

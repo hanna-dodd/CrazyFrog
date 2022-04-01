@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1839141194967872961}
   - component: {fileID: 5671117943771211689}
   - component: {fileID: 2551632985298937855}
+  - component: {fileID: -2916460587644322423}
   m_Layer: 0
   m_Name: Mummy1
   m_TagString: Enemy
@@ -151,3 +152,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-2916460587644322423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7616745653655208089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9e9114cb37c4a6a83385884916af31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerDamage: 4
+  hp: 15

@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour {
     private GameObject levelImage;
     private Text levelText;
 
-    private GameObject pauseMenu;
+    public GameObject pauseMenu;
 
     private bool doingSetup;
     private bool paused;
