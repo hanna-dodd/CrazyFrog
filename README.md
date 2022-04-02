@@ -5,7 +5,7 @@ Bennett McDonald - bmcdon32@uwo.ca
 
 ***INSTALLATION AND DEMO GUIDE***
 
-There are two executable builds available in this repository. The "Full Game" build includes the entire game with the main menu and an opening cut scene. The "Level Generation" build includes only the infinite generation of levels.
+There are two executable builds available in this repository. The "Full Game" build includes the entire game with the main menu and an opening cut scene. The "Level Generation" build includes only the infinite generation of levels. The executable files are designed for MacOS.
 
 To install our demo, the Unity Engine and HUB must be installed to run the game. The version we used to develop this demo was the Unity Editor 2020.3.30f1 (LTS). Once you have extracted the "WizardGame.zip" file, you can launch the game in the Unity HUB following these steps:
 
