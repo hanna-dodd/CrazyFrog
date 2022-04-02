@@ -31,7 +31,7 @@ There is a pause menu that can be activated by pressing the escape key. From the
 
 All artwork is not our own, but are available to be used freely.
 
-Ring ding ding daa baa 
+Ring ding ding daa baa   
 Baa aramba baa bom baa barooumba  
 Wh-wha-what's going on-on?  
 Ding, ding  
